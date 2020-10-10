@@ -1,0 +1,5 @@
+The first thing we need to do is install Git on Windows; you can do so with the following steps:
+Download and install the latest version of Git for Windows.
+Use the default options for each step in the installation.
+Remove Git Bash Desktop Icon.
+Go to Start > All Programs > Git > Git GUI and make a Desktop Shortcut.
