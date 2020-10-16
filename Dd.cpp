@@ -5,8 +5,8 @@ using namespace std;
 #define ll long long
 #define dl double
 #define ch char
-#define f(i,a,b) for(ll i=a;i<b;i++)
-#define rf(i,a,b) for(ll i=a-1;i>=b;i--)
+#define f(i,p,q) for(ll i=p;i<q;i++)
+#define rf(i,p,q) for(ll i=p-1;i>=q;i--)
 #define Godspeed                ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL);
 #define vpl vector< pair<ll,ll> >
 #define vpi vector< pair<int,int> >
@@ -20,9 +20,9 @@ using namespace std;
 #define fr first
 #define se second
 #define PI 3.14159265
-bool comp(pair<long long int ,long long int > &a,pair<long long int ,long long int > &b)
+bool comp(pair<long long int ,long long int > &p,pair<long long int ,long long int > &q)
 {
-	return a.second > b.second;
+	return p.second > q.second;
 }
 #define int long long
 
